@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
 
 const myWork = [
@@ -32,4 +32,4 @@ const myWork = [
 
 ]
 
-ReactDom.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
+ReactDOM.render(<ExampleWork work={myWork} />, document.getElementById('example-work'));
