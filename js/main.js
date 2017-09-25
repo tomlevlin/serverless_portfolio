@@ -16,7 +16,7 @@ const myWork = [
   {
     'title': "TLE Guru news site.",
     'href': "http://video.tleconsulting.eu",
-    'desc': "This is a serverless site where all users can add their own articles for later reading. The site uses an API-Gateway for communicating with the DynamoDB database where all articles are stored. This site uses the AWS Cognito service for user authentication. "
+    'desc': "This is a serverless site where all users can add their own articles for later reading. The site uses an API-Gateway for communicating with the DynamoDB database where all articles are stored. This site uses the AWS Cognito service for user authentication. ",
     'image': {
       'desc': "This is a site where you will find interesting articles.",
       'src': "images/tle.guru.png",
@@ -26,7 +26,7 @@ const myWork = [
   {
     'title': "TLE - URL shortener",
     'href': "https://tle.bz",
-    'desc': "This is a simple URL-shortener service created with the serverless architecture. The site uses the API-Gateway for communication with DynamoDB where all URL's are stored."
+    'desc': "This is a simple URL-shortener service created with the serverless architecture. The site uses the API-Gateway for communication with DynamoDB where all URL's are stored.",
     'image': {
       'desc': "The tle.bz URL-shortener service.",
       'src': "images/tle_bz.png",
