@@ -4,28 +4,32 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
-    'title': "Work Example 1",
-    'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'title': "video.tleconsulting.eu",
+    'href': "https://video.tleconsulting.eu",
+    'desc': "This is my serverless website that consists of a lot of videos taken in Spain. The site is built with the serverless architecture and consists of a process that transcodes video files to some specified formats. The site uses Auto0 for authentication and Google's firebase database for all the videos metadata.",
     'image': {
-      'desc': "example screenshot of a project involving code",
-      'src': "images/example1.png",
+      'desc': "My serverless videosite.",
+      'src': "images/video_tle.png",
       'comment': ""
     }
   },
   {
-    'title': "Work Example 2",
+    'title': "TLE Guru news site.",
+    'href': "http://video.tleconsulting.eu",
+    'desc': "This is a serverless site where all users can add their own articles for later reading. The site uses an API-Gateway for communicating with the DynamoDB database where all articles are stored. This site uses the AWS Cognito service for user authentication. "
     'image': {
-      'desc': "example screenshot of a project involving chemistry",
-      'src': "images/example2.png",
+      'desc': "This is a site where you will find interesting articles.",
+      'src': "images/tle.guru.png",
       'comment': ""
     }
   },
   {
-    'title': "Work Example 3",
+    'title': "TLE - URL shortener",
+    'href': "https://tle.bz",
+    'desc': "This is a simple URL-shortener service created with the serverless architecture. The site uses the API-Gateway for communication with DynamoDB where all URL's are stored."
     'image': {
-      'desc': "example screenshot of a project involving cats",
-      'src': "images/example3.png",
+      'desc': "The tle.bz URL-shortener service.",
+      'src': "images/tle_bz.png",
       'comment': ""
     }
   }
